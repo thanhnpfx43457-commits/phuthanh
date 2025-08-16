@@ -5,9 +5,16 @@
     gap: 10px; 
     padding: 10px;
   }
+  #navbar a{
+    border: none;
+  }
   .name {
     display: none;
   }
+  #navbar a:nth-child(2),
+  #navbar a:nth-child(5) {
+  border-right: none;
+}
   .about-grid {
     grid-template-columns: 1fr;
   }

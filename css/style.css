@@ -72,8 +72,11 @@ img {
   color: black;
   text-decoration: none;
   border-left: 1px solid #d0d0d0;
-}
 
+}
+#navbar a i {
+  margin-right: 2px;
+}
 #navbar a:nth-child(2),
 #navbar a:nth-child(5) {
   border-right: 1px solid #d0d0d0;
@@ -112,6 +115,7 @@ img {
 .info-icons {
   color: #199cdb;
   padding-top: 30px;
+
 }
 
 /* Phần kinh nghiệm làm việc */
